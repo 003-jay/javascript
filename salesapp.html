@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="salesapp.css">
+</head>
+<body>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Items</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Cost</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="checkbox" id="phone" onclick="forPrice1()"> Phone</td>
+                <td><input type="number" id="qty1" oninput="forCost1()"></td>
+                <td><input type="number" id="price1"></td>
+                <td><input type="number" id="cost1"></td>
+            </tr>
+        </tbody>
+
+        <tbody>
+            <tr>
+                <td><input type="checkbox" id="pen" onclick="forprice2()"> Pen</td>
+                <td><input type="number" id="qty2" oninput="forcost2()"></td>
+                <td><input type="number" id="price2"></td>
+                <td><input type="number" id="cost2"></td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td><input type="checkbox" id="car" onclick="forprice3()"> car</td>
+                <td><input type="number" id="qty3"oninput="forcost3()" ></td>
+                <td><input type="number" id="price3"></td>
+                <td><input type="number" id="cost3"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="joe">
+    <button onclick="calculate()">calculate </button>
+    <h1 id="me">0</h1>
+    </div>
+    
+    
+   
+
+
+
+
+    <script src="sales.js"></script>
+</body>
+</html>

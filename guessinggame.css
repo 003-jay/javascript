@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.back{
+    background-image: url(sean-oulashin-KMn4VEeEPR8-unsplash.jpg);
+   background-size: cover;
+   height: 100vh;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+
+}
+.body{
+    height: 400px;
+    width: 500px;
+    /* background-color: aqua; */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    backdrop-filter: blur(3px);
+    border-radius: 30px;
+    border: solid 3px rgba(241, 10, 10, 0.473);
+    transition: 0.3s ease-in-out;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* animation-duration: 2s;
+    animation-name: boy;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate; */
+    
+}
+
+/* @keyframes boy {
+  0%{
+    transform: translateY(-5px);
+  }
+    100%{
+    transform: translateY(5px);
+
+    }
+} */
+.body:hover{
+    background-color: rgba(36, 20, 54, 0.336);
+    transform: scale(1.1);
+    
+}
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button{
+    display: none;
+}
+
+.submit{
+    border-radius: 7px;
+    background-color:  rgba(241, 10, 10, 0.473);
+    transition-timing-function: ease-in-out;
+    transition-property: border-button , color;
+    transition-duration: 0.1s;
+}
+.submit:hover{
+    background-color:  rgba(36, 20, 54, 0.336);
+    transform: scale(0.8);
+}
+
+.restart{
+    border-radius: 7px;
+    background-color: rgba(241, 10, 10, 0.473);
+     transition-timing-function: ease-in-out;
+    transition-property: border-button , color;
+    transition-duration: 0.1s;
+}
+
+.restart:hover{
+    background-color:  rgba(36, 20, 54, 0.336);
+    transform: scale(0.8);
+}
+.input{
+    border-radius: 4px;
+    background-color: rgba(165, 42, 42, 0.301);
+    text-align: center;
+}

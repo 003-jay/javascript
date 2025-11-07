@@ -1,0 +1,47 @@
+.joe{
+    height: 20px;
+    width: 5%;
+    /* background-color: blue; */
+    display: grid;
+    gap: 2px;
+    margin-top: -70px;
+    
+}
+.min{
+    height: 100px;
+    width: 20%;
+    display:flex;
+    background-color: brown;
+    gap: 50px;
+    justify-items: center;
+    align-items: center;
+}
+.bill{
+    font-size: 20px;
+   
+    height: 30px;
+    width: 30%;
+    /* background-color: aqua; */
+}
+.add{
+    border-radius: 30px;
+    background-color: burlywood;
+    
+}
+.minus{
+    border-radius: 30px;
+      background-color: burlywood;
+}
+.mul{
+    border-radius: 30px;
+      background-color: burlywood;
+}
+.divide{
+    border-radius: 30px;
+      background-color: burlywood;
+}
+.table{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: burlywood;
+    
+}

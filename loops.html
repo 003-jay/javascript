@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!-- loops are used to repeat a particular code unyil a certain condition is met.
+
+     examples of loop
+     do while loop
+     while loop
+     for loop -->
+
+
+     <!-- <script>
+        for (let vince = 1; vince <=12; vince++) {
+            let ele = "2*" + vince + "=" + vince*2
+            console.log(ele)
+            
+        }
+     </script> -->
+
+
+     <ol id="mylist"></ol>
+
+     <script>
+        let mylist = document.getElementById('mylist');
+        let food = ["rice", "beans" , "egg", "yam"]
+
+        for (let i = 0; i < food.length; i++) {
+            mylist.innerHTML += `<li>${food[i]}</li>`
+        
+        }
+    //  for (let i = 0; i < food.length; i++) {
+           
+    //     let lili = document.createElement('li');
+    //     lili.innerHTML= food[i]
+    //     mylist.appendChild(lili)
+    //     }
+      
+     </script>
+
+
+
+
+</body>
+</html>

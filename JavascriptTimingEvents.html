@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Javascript Timing Events.
+    
+    setTimeout : This is used to execute a function after a specified delay in milliseconds. 
+    clearTimeout : used to stop setTimeout. 
+    setInterval : Used to execute a function repeatedly after a specified delay in milliseconds. 
+    clearInterval : Used to stop setInterval. -->
+
+    <h1 id="count"></h1>
+
+
+
+
+    <script>
+       let count = document.getElementById('count');
+       let num = 10;
+       count.innerHTML = num
+
+       let int = setInterval(() => {
+        num--
+        // if (num == 10) {
+        //     clearInterval(int)
+        // }
+       count.innerHTML = num
+
+       }, 500);
+
+
+
+
+        // function show() {
+        //     alert("hello")
+        // }
+
+        // setTimeout(show, 3000)
+
+
+    </script>
+
+</body>
+</html>

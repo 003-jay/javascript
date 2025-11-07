@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="accordass.css">
+</head>
+<body>
+    <div class="body">
+        <div class="ba">
+            <div class="m1" onclick="form2()" > 
+                <h1>what is netflix</h1>
+                <span class="span">+</span>
+            </div>
+
+
+            <div class="m2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa fugiat odit tempora veniam harum nihil cumque ex consequatur id.</div>
+
+        </div>
+
+        
+
+
+
+        <div class="bal">
+             <div class="n1" onclick="form()" > 
+                <h1>How much does netflix cost?</h1>
+                <span class="spa">+</span>
+            </div>
+
+            <div class="n2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quaerat doloremque nisi aliquid sed nemo consequatur iure quae earum ipsa.</div>
+
+        </div>
+
+
+
+
+
+
+        <div class="ball">
+            <div class="s1" onclick="formed()" > 
+                <h1>Where can i watch?</h1>
+                <span class="spark">+</span>
+            </div>
+
+            <div class="s2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quaerat doloremque nisi aliquid sed nemo consequatur iure quae earum ipsa.</div>
+
+        </div>
+
+
+         <script>
+            const s2 = document.querySelector('.s2');
+        const spark = document.querySelector('.spark');
+        
+        function formed() {
+            s2.classList.toggle('sliding')
+            spark.classList.toggle('som')
+        }
+        </script>
+        
+
+
+
+
+
+        <div class="base">
+             <div class="v1" onclick="mined()" > 
+                <h1>How do i cancel?</h1>
+                <span class="spark">+</span>
+            </div>
+
+            <div class="v2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quaerat doloremque nisi aliquid sed nemo consequatur iure quae earum ipsa.</div>
+
+        </div>
+        </div>
+
+
+    </div>
+
+
+
+    <script>
+            const m2 = document.querySelector('.m2');
+            const span = document.querySelector('.span');
+            const n2 = document.querySelector('.n2');
+            const spa = document.querySelector('.spa');
+            const v2 = document.querySelector('.v2');
+            const sparking = document.querySelector('.sparking');
+        
+            function mined() {
+                v2.classList.toggle('slided')
+                sparking.classList.toggle('some')
+            }
+        
+            function form2() {
+                m2.classList.toggle('slide')
+                span.classList.toggle('sp')
+                n2.classList.remove('slid')
+                v2.classList.remove('slided')
+
+            }
+            function form() {
+                n2.classList.toggle('slid')
+                m2.classList.remove('slide')
+
+                spa.classList.toggle('so')
+            }
+        </script>
+
+</body>
+</html>

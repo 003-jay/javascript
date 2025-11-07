@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ba{
+    min-height: 50px;
+    width: 50%;
+    background-color: aliceblue;
+    
+    
+    
+}
+.m1{height: 50px;
+    /* width: 50%; */
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 20px;
+    align-items: center;
+    
+    
+}
+
+.span{
+    font-size: 2rem;
+    font-family: fantasy;
+    transition: .5s;
+}
+
+
+.m2{
+    height: 0px;
+    /* width: 50%; */
+    background-color: aqua;
+    overflow: hidden;
+   
+}
+.slide{
+    height: 100px;
+    
+
+    transition: 0.5s;
+
+}
+
+.sp{
+    transform: rotate(150deg);
+}
+
+.bal{
+    min-height: 50px;
+    width: 50%;
+    background-color: bisque;
+
+    
+}
+.n1{height: 50px;
+    /* width: 50%; */
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 20px;
+    align-items: center;
+    
+    
+}
+.spa{
+    font-size: 2rem;
+    font-family: fantasy;
+    transition: .5s;
+}
+
+.n2{
+    height: 0px;
+    /* width: 50%; */
+    background-color: aqua;
+    overflow: hidden;
+   
+}
+.slid{
+    height: 100px;
+    
+
+    transition: 0.5s;
+
+}
+
+.so{
+    transform: rotate(150deg);
+}
+
+.ball{
+    min-height: 50px;
+    width: 50%;
+    background-color: bisque;
+
+    
+}
+.s1{height: 50px;
+    /* width: 50%; */
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 20px;
+    align-items: center;
+    
+    
+}
+.spark{
+    font-size: 2rem;
+    font-family: fantasy;
+    transition: .5s;
+}
+
+.s2{
+    height: 0px;
+    /* width: 50%; */
+    background-color: aqua;
+    overflow: hidden;
+   
+}
+.sliding{
+    height: 100px;
+    
+
+    transition: 0.5s;
+
+}
+
+.som{
+    transform: rotate(150deg);
+}
+
+
+.base{
+    min-height: 50px;
+    width: 50%;
+    background-color: bisque;
+
+    
+}
+.v1{height: 50px;
+    /* width: 50%; */
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 20px;
+   align-items: center;
+    
+    
+}
+.sparking{
+    font-size: 2rem;
+    font-family: fantasy;
+    transition: .5s;
+}
+
+.v2{
+    height: 0px;
+    /* width: 50%; */
+    background-color: aqua;
+    overflow: hidden;
+   
+}
+.slided{
+    height: 100px;
+    
+
+    transition: 0.5s;
+
+}
+
+.some{
+    transform: rotate(150deg);
+}
+
+
+
+

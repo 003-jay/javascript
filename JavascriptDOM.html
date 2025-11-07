@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- DOM - Document Object Model. 
+        It refers to everything about the html elements.
+        It can be used to manipulate html element. i.e., grabbing, styling, creating html elements and modifying the content of html elements.  -->
+
+    <div id="box"></div>
+
+
+    <script>
+        // grabbing by id 
+        const box = document.getElementById('box')
+        
+        // styling method1 
+        // box.style.height = "200px"
+        // box.style.backgroundColor = "red"
+
+        // style 2 
+        box.style.cssText = "height: 100px; width:100px; background-color:pink; color:blue;"
+
+        box.innerHTML = "Welcome <u>back</u>"
+        // box.innerText = "Welcome back"
+        // box.textContent = "Welcome back"
+
+        // creating html elements 
+        let Joe = document.createElement('section');
+        Joe.style.cssText = "height:200px; width:200px; background-color: maroon; display:flex; justify-content:center; align-items:center"
+        // NB: After creating any html element with javascript, you must append it to the body. 
+        document.body.append(Joe);
+
+        let Peter = document.createElement('button');
+        Joe.appendChild(Peter)
+        Peter.innerHTML = "click me"
+
+        let myPic = document.createElement('img');
+        document.body.append(myPic)
+        myPic.src = "pp.jpg"
+        myPic.style.width = "200px"
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

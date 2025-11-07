@@ -1,0 +1,14 @@
+.wrap{
+    height: 100px;
+    width: 100px;
+    background-color: lime;
+    /* position: absolute; */
+    /* left: -100px; */
+    transform: translateX(-100px);
+    transition: 0.5s;
+}
+
+.mike{
+    transform: translateX(0px);
+}
+

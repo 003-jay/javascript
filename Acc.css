@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container1{
+    min-height: 50px;
+    width: 400px;
+    background-color: turquoise;
+}
+.child1{
+    height: 50px;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 20px;
+    align-items: center;
+}
+.child2{
+    height: 0px;
+    background-color:black ;
+    color: white;
+    overflow: hidden;
+    transition: .5s;
+}
+.plus{
+    font-size: 2rem;
+    font-family: fantasy;
+    transition: .5s;
+}
+
+.slide{
+    height: 100px;
+}
+
+.sp{
+    transform: rotate(150deg);
+}

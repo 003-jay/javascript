@@ -1,0 +1,10 @@
+.joe{
+    height: 50px;
+    width: 300px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+.me{
+    /* font-size: 12px; */
+}

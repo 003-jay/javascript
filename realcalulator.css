@@ -1,0 +1,87 @@
+*{
+     padding: 0px; 
+     margin: 0px;
+}
+
+.body{
+    height: 500px;
+    width: 25%;
+    background-color:  rgb(5, 63, 63);
+    display: grid;
+   margin-left: 500px;
+   margin-top: 50px;   
+   box-shadow: 10px 20px  5 0px 20px rgba(0, 0, 0, 0.301);
+}
+.display{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(80, 47, 5);
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   font-size: medium;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bt1{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(5, 63, 63);
+    display: flex;
+    gap: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    justify-content: center;
+    
+    
+}
+
+.btn{
+   height: 30px;
+   width: 35px;
+   border-radius: 60px;
+   background-color: blueviolet;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.bt2{
+    height: 70px;
+    width: 100%;
+    background-color:rgb(5, 63, 63);
+    display: flex;
+    gap: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+}
+
+.bt3{
+    height: 70px;
+    width: 100%;
+    background-color:rgb(5, 63, 63);
+    display: flex;
+    gap: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+}
+.bt4{
+    height: 70px;
+    width: 100%;
+    background-color:rgb(5, 63, 63);
+    display: flex;
+    gap: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+}
+
+.bt5{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(5, 63, 63);
+    display: flex;
+    gap: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+}
